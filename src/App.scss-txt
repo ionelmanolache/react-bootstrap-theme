@@ -1,0 +1,20 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+
+  /* display: flex; */
+  max-width: 30rem;
+  border: 3px;
+  border-color: aqua;
+}
+
+main {
+  background-color: green;
+}
+
+header {
+  background-color: black;
+}
