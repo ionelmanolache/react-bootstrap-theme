@@ -1,0 +1,10 @@
+
+$relative-image-path: "variant01/";
+
+.variant-logo {
+  background: no-repeat left center
+    url($relative-image-path + "vite.svg");
+ /* width: 130px;
+  height: 25px;*/
+  background-size: contain;
+}

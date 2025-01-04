@@ -1,0 +1,10 @@
+
+$relative-image-path: "variant02/";
+
+.variant-logo {
+  background: no-repeat left center
+    url($relative-image-path + "react.svg");
+ /* width: 130px;
+  height: 25px;*/
+  background-size: contain;
+}

@@ -1,0 +1,47 @@
+@import "~bootstrap/scss/bootstrap";
+// @import "~bootstrap/scss/functions";
+// @import "~bootstrap/scss/variables";
+// @import "~bootstrap/scss/variables-dark";
+// @import "~bootstrap/scss/mixins";
+
+// $color-mode-type : data;
+
+[data-bs-theme="variant01-light"] {
+
+  @import "variant01/theme-variant01-light";
+  
+  @import "~bootstrap/scss/bootstrap";
+  --#{$variable-prefix}body-color: #{$body-color};
+  --#{$variable-prefix}body-bg: #{$body-bg};
+}
+
+[data-bs-theme="variant01-dark"] {
+
+  @import "variant01/theme-variant01-dark";
+
+  @import "~bootstrap/scss/bootstrap";
+  --#{$variable-prefix}body-color: #{$body-color-dark};
+  --#{$variable-prefix}body-bg: #{$body-bg-dark};
+}
+
+[data-bs-theme="variant02-light"] {
+
+  @import "variant02/theme-variant02-light";
+  
+  @import "~bootstrap/scss/bootstrap";
+  --#{$variable-prefix}body-color: #{$body-color};
+  --#{$variable-prefix}body-bg: #{$body-bg};
+}
+
+[data-bs-theme="variant02-dark"] {
+
+  @import "variant02/theme-variant02-dark";
+
+  @import "~bootstrap/scss/bootstrap";
+  --#{$variable-prefix}body-color: #{$body-color-dark};
+  --#{$variable-prefix}body-bg: #{$body-bg-dark};
+}
+
+.header {
+  background-color: var(--bs-body-bg);
+}
