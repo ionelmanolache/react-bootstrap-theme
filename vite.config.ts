@@ -15,6 +15,8 @@ export default defineConfig({
     }
   },
   plugins: [react()],
+  // Github Pages
+  base: '/react-bootstrap-theme/',
 
   css: {
     devSourcemap: true,
